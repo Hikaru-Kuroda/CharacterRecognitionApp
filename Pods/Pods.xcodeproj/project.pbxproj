@@ -1,0 +1,1399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C413D630779ABAA8102DF84E257506 /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BAD54DCA70B0C6C08ABF87F4F04CFB3 /* UIImage+CropRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D575C8F225A42040168B8580D7CEE1 /* ccbord.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE37E622B2B2249CAC08EA609B7DD1B /* ccbord.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		05F2F6185291510DDAABD8F63A23C232 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 28247B14462BBE43285A4D58270F32BD /* ko.lproj */; };
+		0C8661F0463C9739F42170060B8C5C3B /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8472E872C2A8C586EBD5A9EE147C2E34 /* vi.lproj */; };
+		0EDED454CD723B8AAE762A605FA9C701 /* bmf.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CB29BD30C249A2089563503B82E42C0 /* bmf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		11412B800ED37F0FC1DD241DB0914098 /* TOCropViewControllerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 97A93DCEF2B1499B1F84D43333829DC7 /* TOCropViewControllerBundle.bundle */; };
+		169D829DAC4F47C413563B68A0452CFB /* fi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6FC849DCB22845B8DE0F08B2AB731901 /* fi.lproj */; };
+		16FDE71535603ACDAFC35170A1E14370 /* SwiftyTesseract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F17F7711B5B4A4706BFF1A021E6A76A /* SwiftyTesseract.swift */; };
+		199AEA4A791F7D9BD13FB08A838EDD3A /* publictypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 359EC7D7A73B60D217A81232215CC1E6 /* publictypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1AD781F0E8038C3EB5241C0B6B59D620 /* pngconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 621E9D7D88A2D2552A8352173B77B0E0 /* pngconf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1D0E6626C3DF603C02919934589745A4 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = C2B50256CDCC6115461BF74E43A3FAFE /* platform.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1EFAD1F82D559DD77ED2846F18F41B8E /* fa-IR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C652AD0633DA2A36BBA91E355BEE10BB /* fa-IR.lproj */; };
+		22A165C0CAE7878CE54C5CCF083F4A2E /* rbtree.h in Headers */ = {isa = PBXBuildFile; fileRef = 552CDD1E1D36B1044844EA1B3534F647 /* rbtree.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		244697D0F1B7003CA452AF4E06959B55 /* renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E8115561054FF10864BDE146C40C03 /* renderer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		27662C42DF74AAA15565B5196E0D9ED2 /* strngs.h in Headers */ = {isa = PBXBuildFile; fileRef = D442582E1C97C79145F6EBEE5FD4AB67 /* strngs.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2AC2BA05B1063BF8F6BCBF0968A2F7D8 /* serialis.h in Headers */ = {isa = PBXBuildFile; fileRef = 41AEC612D90EB9F4653F3B620378BFE4 /* serialis.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2B106EFF951EBEA0FF94281ED80A30B4 /* heap.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E86BAD6200EC54A95752AC5DFEE989 /* heap.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2B512754974B944596378E4CAE48348E /* EngineMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745D52D4B0A16E2408BEC85E2C4D267 /* EngineMode.swift */; };
+		2C41B9A9B938CE09649492D3B333554E /* Pods-CharacterRecognitionApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F013FF3A084833DF1FA3690A45A69E1F /* Pods-CharacterRecognitionApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D349BB945163A41C7ABDEF4DCEBF8B4 /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = BC1FD56888CDA9D60D28D3E3F69DF8D3 /* pl.lproj */; };
+		2E23C9D9769D68658E945E6F04D8499B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		34F86C4B043E7852A3EF41D9B1FC80F4 /* morph.h in Headers */ = {isa = PBXBuildFile; fileRef = 4421051F2C7583F95E61C14DD058382D /* morph.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		356B3AC29353AADFBAA8CF5B8E7C8722 /* recog.h in Headers */ = {isa = PBXBuildFile; fileRef = C66CD3FDC3B1844C33D288FCB3973F2F /* recog.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		35B549A36F10451343C4FBE5254C1BE9 /* RecognizedBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF0159A276C54B22B27C56A1343F729 /* RecognizedBlock.swift */; };
+		36B1B591BF2862E81ADE2DD5BC630FB7 /* ro.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C24527BEB48E9079D6CE0B226F34488D /* ro.lproj */; };
+		37BEF23F4B2049217AFEEFA1FAC15FF8 /* sudoku.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD255D87C00F644EFE98615D1F13355 /* sudoku.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3914AE7892E0DB25196362A6CC9923E5 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCD2B69ED649FE3B94F28A85DCCE3DB /* String+Extensions.swift */; };
+		421C8AFDAE630B9097DF79E63016AAFB /* gplot.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6765D052475EBAB938DD6881657290 /* gplot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		42729E1C419A73A3DAD57DC016C4C23A /* bmp.h in Headers */ = {isa = PBXBuildFile; fileRef = EE66BA3267F218BE4900B27E7EADCEB0 /* bmp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		440FE2B03F4779E8FA0CA7FDF697D821 /* jmorecfg.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE42C545A0B22D16B30EACCAA6359F9 /* jmorecfg.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		44B64A745B1FD8412877004835564237 /* SwiftyTesseract-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 969C7637597CE923DFB76ACD6AEF8CCC /* SwiftyTesseract-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45F2BBC7E12948AFB70C62D7FD94377A /* Bundle+pathToTrainedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5898F2BEA45980BD56867AB7C1466C52 /* Bundle+pathToTrainedData.swift */; };
+		47861484AA0C434E56E6F252AF863815 /* TOCropViewConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1505364613EE701C1D4E0D67467C0C88 /* TOCropViewConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AD942A0055F4AA9E88F5794116C0954 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7FA53DF9E073D7BE8F43655124FF48 /* CropViewController.swift */; };
+		4BA564C9A4D51CFB5930C77E9E92FF11 /* TOActivityCroppedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = F91D580221FE266E07BBE5BA0B8FEE74 /* TOActivityCroppedImageProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C3D76401BA05EE8E38C853ED9E6F256 /* tiffvers.h in Headers */ = {isa = PBXBuildFile; fileRef = 910FEEC0A10AB774046A9C925D6DFC10 /* tiffvers.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4F7F501F3844F12D9E469E7CE3C26FD8 /* ptra.h in Headers */ = {isa = PBXBuildFile; fileRef = A747AFC527F7190473B7AAC4F591F176 /* ptra.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4FDF851B7B66B5F47086CAF035CC45D5 /* TOCropViewControllerTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFA08F409FD4BD419BD31936B2E83FD /* TOCropViewControllerTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54E8F3F79732BDB75391BA14ABDAFDA5 /* pnglibconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C7D01B3195AB1E6DE4D07622A4B3B2D /* pnglibconf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		55DABFACB6849AA3BE0A2CDFA476F7F1 /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 775FD1C309BE05B45133DC710E9E7E93 /* UIImage+CropRotate.m */; };
+		58610ED925E763568D0F8452A00DB80C /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 527843C26800162C2A2BF35601E03176 /* hu.lproj */; };
+		58B492A278EF1C484C91EED9850B8E0D /* LanguageStringConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5956060BDF2CF0F045009A9F8FB6CB /* LanguageStringConverter.swift */; };
+		58B75C2BF14C7D6812C20104D45073F8 /* watershed.h in Headers */ = {isa = PBXBuildFile; fileRef = BC1E236B5591ACCDF04CAA791D4CC2C6 /* watershed.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5EB1A56FB922629093CEE3ACE912F44B /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5F6A25D67936611A412C48A9D8D62E /* TOCroppedImageAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ECB3EECBA25B0A18F93ECD759FBF26E /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3778407FBB9CA2D1F0BE65B3C7C61A54 /* it.lproj */; };
+		6B600105D57454B433EA2B23F3251D66 /* helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB3084484FE2F0B42BD10325F160E77 /* helpers.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6D0E2454EFDB58A661E5E9ED6FE22354 /* genericvector.h in Headers */ = {isa = PBXBuildFile; fileRef = E6D8B6FF934D70BAD148836ED02CE37D /* genericvector.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		70F0B373150B140E4C5146FE656906A8 /* allheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A6E33E2CEE0E50DA5DA4395FA504C6 /* allheaders.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		72F0225A3C905CF3B4B69739A2392F52 /* osdetect.h in Headers */ = {isa = PBXBuildFile; fileRef = B0E799AC48314DE55DDA409D03DC376F /* osdetect.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		745905EADE10CA025812B5F0D4AC3340 /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8B5B06A25A3187EBAF4385A439A63C4E /* ar.lproj */; };
+		76514F175C899CD9E365A7D957938889 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 05AA6A2F3F8C06149150FC3B90B77C63 /* nl.lproj */; };
+		76AD5E9A04E8E12939629A23AC837F04 /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 942939EB17C78643356A6D5CD55CA973 /* tr.lproj */; };
+		7B7AC99FB6AB7DF426DE640D9ED899D2 /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = BC4AC1B20C23ADB10171764231907D47 /* id.lproj */; };
+		81D568880BCCC5D0B4C9948E6BDE11C1 /* apitypes.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0F64A00330519AD4BC56443A7DAFFE /* apitypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		86F1E48DDBBCA77850C8159DA7772E06 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = F96D34CD6C86586DA3F21D075E09E94E /* stack.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		89B8212E999B2F02B2EDA95083DC62A5 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E1AE1221B6699FA1404749FCF742A403 /* zh-Hans.lproj */; };
+		8B2DD460AF59B56F6A5F9219B1123AF6 /* thresholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 996A6434D1B22ADA905D4E239F9FF3E3 /* thresholder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8C7168CD4EA6EA815FB919C93FB6CF62 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4515BD699A790D44AF7100B3BF834319 /* zh-Hant.lproj */; };
+		8CA861FE1437795CE4240538BC579EDD /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2128AD56F6779FA834AD3D8390C68233 /* TOCropOverlayView.m */; };
+		8D799CC9894026986F23F7E9187F43C2 /* png.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB34F33107D6D51DE02F01AD4D1B1BD /* png.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8D8D106AA03DEF31A98088E3FB03133B /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8BEEAAC4DB3281D3A91A04EEC4AD8F /* TOCropScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		919446D64B5BE55BCAEB626FF2D798D5 /* dewarp.h in Headers */ = {isa = PBXBuildFile; fileRef = 2335309F14DE67380269C6707A108760 /* dewarp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		91E75569E3773B795F0B6F6DD5732FE1 /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = BD9E95B5611975F9F90FF522BA1B2AFF /* ru.lproj */; };
+		964629F0BB83DBC47EFA7941A547F341 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3205A783B9CBEBDDEBE7630A1F62B /* TOActivityCroppedImageProvider.m */; };
+		976CC62C8BE838C9925B23374BD7625A /* queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FAE036D98C0680BE5AA737EDDD2F35A /* queue.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		97EFDE8D797B96B1CE5CB9444445E80E /* RecognitionLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B6A1244E74AE1D65411441AF39D505 /* RecognitionLanguage.swift */; };
+		989394A93F0491C9872C63109165B0A0 /* SwiftyTesseractError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE2E71F0034D1842D00AA785C191F61 /* SwiftyTesseractError.swift */; };
+		9B592D98CAE560D191FD68BD203C8DC3 /* tesscallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 0514EA4FC7FE13387744C328E2029BC5 /* tesscallback.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A030756696D2667B302AFAD412EE6DA4 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 706FC732C6A73341DF9B99B6456DD50B /* pt.lproj */; };
+		A03ABA4E99AF27B5ABE1543785A33E0C /* endianness.h in Headers */ = {isa = PBXBuildFile; fileRef = 40D45D6109C0D9003306B8BE93F34EDE /* endianness.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A16A07BEEA3B76EFF654F69F865BA8B8 /* tiff.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0CDAF2D24D1BA7E5EB611CA9BB84F8 /* tiff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A3222935AF8A15234FDFC4ABE1A71FEC /* LanguageModelDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE497656F77030F2938860AA30D4E931 /* LanguageModelDataSource.swift */; };
+		A4F3E2FC5063C4F3602ACDB13E315713 /* unichar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5374726C413C008CF706FEF8AE7A28D4 /* unichar.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A70FF843DF493782404BD78611DC7E3B /* jpeglib.h in Headers */ = {isa = PBXBuildFile; fileRef = CFF52CA29493BA484503A3DB4104B300 /* jpeglib.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A754A85E76693D7E16823E9DB8B8AB0C /* jconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF81145F8AE8A6B9578F4704E20F586 /* jconfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A87FDF021D45D0B1F5C36447FAD41B0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		AB7F1C7D67867968A8BB6A01EC90DD64 /* pageiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA3FE03621F0C54CE40E885A6295015 /* pageiterator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AC7E3966EF061B3BE31E1F36CF2F4BB4 /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EBEA0C47F4AA192619EE35D01DE4B2F8 /* TOCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA90ED5CDCEAA7123760E6E1D4F4AF6 /* ms.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A114EEBDE3683C96502ECDF5449A2FDF /* ms.lproj */; };
+		AEDCB7E481D4563A9CA6A9CE3CE285F2 /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8592855EC627C92959861C6BE2B68A /* TOCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFF4A89763C184DF5B8AE09D4E9CCEB5 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = C766029B1CB1C688E843093E088614FE /* TOCropView.m */; };
+		B11875741D553F29E193E3890CD16B89 /* regutils.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE63792091F2F186C52E5C3324ACB75 /* regutils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B164C5A18BB4056C18FEFCE8171FC22F /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417BE2B0186CEB224A596843185E6EF /* TOCropViewController.m */; };
+		B16BAC0F68CF54A30F067F7E5F00E0A4 /* ltrresultiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = D09CA29ACA1649B1A2FB22B97909FAEF /* ltrresultiterator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B4946CF847BA67510D1FDB9399A02C4E /* leptwin.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C000CF43D74AC6619583543E66D740D /* leptwin.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B7142950D98AD68CDD7A65246F0816BD /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A740B8A08EAEA0681E126FE6227CB311 /* fr.lproj */; };
+		B7339A69E6F8E46E7C7A67AAA135EE79 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F938850CAFCCBEE51DF370EDE34F09 /* TOCropScrollView.m */; };
+		B787A05CA157DEAE9E2AD1C3851F44AD /* alltypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BD2EFF7A229DF80BD3E216892D733F6 /* alltypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BCCDBA6A0EE034D5C9F975E61F5FA456 /* readbarcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4B23C061BB0B85498B03913E67584F /* readbarcode.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BCF977892C2AA6D66A6A953BDC527641 /* jbclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F351CCDEB797EF5B8C716EA9D9A95B2 /* jbclass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BD9237A4DDA1F216437F8BCC2CC97B6C /* baseapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 8845A870B84E6B8C474D2A98D033B8F7 /* baseapi.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BE4150D98B1C26C9303206B7F4DA09D1 /* bbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A90BE46AF1EF0F33395FDDE44C8515 /* bbuffer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BF3DACC2CA45F6C62877E8A87E90E39F /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2D8B2DF125A862959BFFF1D712EF5372 /* de.lproj */; };
+		C03CD211C75519D4F15BB6DF1F1FB255 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		C319505FD4E1B4E5C92BFA1B4C5DC42B /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3954D9455D3FFC42EEF8AD179B8544A9 /* ja.lproj */; };
+		C3444BDA4982E3239098FE7B42C6C390 /* arrayaccess.h in Headers */ = {isa = PBXBuildFile; fileRef = 6036FB860BE95303A9B1C77F4D9894E4 /* arrayaccess.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C5ECDBD5830B0D787FEFC80EAAF23DFB /* TOCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7116FF06CB03D0137CB62005A20ABE5B /* TOCropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C723373E46E94CDFA73F6B93CADAE0A8 /* fa.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3C3531176A8518FF5FF7F1365AFCF4D8 /* fa.lproj */; };
+		C8AFF49FE9FC1844F42633BE49FE6D7A /* pt-BR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 572071F7A090C3783F3701096443D247 /* pt-BR.lproj */; };
+		C99C5022A4A2FA0C4572B7216819A1C4 /* da-DK.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 958D6E4C6E3D2283308DDA8875BD31CB /* da-DK.lproj */; };
+		CB830DBF1C71C4B0810B81010164F609 /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CAE387F77D81F1E466CC5E4689B059 /* TOCroppedImageAttributes.m */; };
+		CEC3D47F1098FE57B9A1106ECFF02883 /* environ.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB33D05A5131A5D8C9193B9311DA1DD /* environ.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CFE722B06F0632206EE9F6AE3B374AB9 /* resultiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = A1812BBD7AE91AC8B29C3C108CB2BB08 /* resultiterator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D33D3828100F5B0D7430EE70F3AE5B93 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B9F77D7FA8C3B98288BC0D64700E4C2D /* es.lproj */; };
+		D7B66357D263C0CE81DAE2BC9CADD0CF /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0320B4F81759E2B49352956BE9FFE8 /* TOCropViewControllerTransitioning.m */; };
+		D96151D34C384B696FB3D7576EBBC1C7 /* SwiftyTesseract.h in Headers */ = {isa = PBXBuildFile; fileRef = A13996F692537BEC2BC5AAF7BB166638 /* SwiftyTesseract.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB077EB9830CCC41EA46B3B8D55997FF /* stringcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D404F16FE16D2C97F1EE66F42B50FA /* stringcode.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DB1234F5AEBB99CAFBD091C65F59D3EE /* CropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E90D36EC6D0D56162B47239F5A2303A /* CropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC3550C29FCBD11A90A76FDB542EF31E /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = ED1447F8A96D9CD5E1FF8115995CE31A /* en.lproj */; };
+		DDAAA73FF9068FC7FD59782E84433D9D /* CropViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33725C0375D9F154EACA5D447D062955 /* CropViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE0209B68D58D8600F0C7B9F5639F9E7 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 24976324C782DED999505D0E47DD6366 /* TOCropToolbar.m */; };
+		DEB8275C4958336C6824C344D1E6C792 /* tiffio.h in Headers */ = {isa = PBXBuildFile; fileRef = A4900129BDFC94F69332F519F811EDD2 /* tiffio.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E00065A984D90D4663535711B1B8F42F /* TesseractVariableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EDA1101D8EE31F6E6D9CAE99181394 /* TesseractVariableName.swift */; };
+		E0C0CEE594FECF517EE6554402E39D08 /* pix.h in Headers */ = {isa = PBXBuildFile; fileRef = 57212876F20BF91869807F57CE6C1414 /* pix.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E13372B63486D7FF431908499DA04D55 /* CropViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68421E4B7A321DB8F99EA1D145BE8B57 /* CropViewController-dummy.m */; };
+		E354F75982EB74FBB009333ECBE9D4BC /* imageio.h in Headers */ = {isa = PBXBuildFile; fileRef = 536A033A9EE4234CF70BA5ADFB250847 /* imageio.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E5BB087F887F6666EC86424527965D1A /* jerror.h in Headers */ = {isa = PBXBuildFile; fileRef = 73EE8E363CA6B3E8795B563625270485 /* jerror.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E753AC3306AFC3D73F413872F2377073 /* SwiftyTesseract-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9DBED1EE5DC37F8E1D8171A45BAE0 /* SwiftyTesseract-dummy.m */; };
+		E87F29B9B8A0EBDEFDD66222E655059A /* ocrclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F07A0C108646A2006A90A43912E8C14 /* ocrclass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA4A1BA30F024245103E9862A90DAF40 /* tess_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EF01D542BE2364A74AF6DCF8937B973 /* tess_version.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA655628154FFF8D0A863F0617A5580D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		EA9000D13577463FE3632471AEE05228 /* TOCropToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0CFA7E6D9165383C655D116EA84149A /* TOCropToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB9FDD440BCFC28D7C47A09C9EE8A714 /* Pods-CharacterRecognitionApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1612AE2918947CA84EBA1AA222F2B1C /* Pods-CharacterRecognitionApp-dummy.m */; };
+		EEE0D3C75AD36D038BB20C20FA47F0E0 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 064A5D8F3D1A47690C4F32D478A6D721 /* Base.lproj */; };
+		F16B863CC7ED043E48C54D1AC5CBC92F /* capi.h in Headers */ = {isa = PBXBuildFile; fileRef = A7FCE0EF61B103BE21505ED15AB3E5CC /* capi.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F7EACED21E5EDB96A670438D840BE67F /* array.h in Headers */ = {isa = PBXBuildFile; fileRef = 418266A26A64F87F93F44654C767F4D9 /* array.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F919D320010C3EF2C47934B50E2B37D5 /* tiffconf.h in Headers */ = {isa = PBXBuildFile; fileRef = E0BE28248981E0DFFDD7F84FF2B8868A /* tiffconf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FA2A991ED2E349B550B46552E0222C48 /* ResultIteratorLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BEB231CCF30642247B0774FC6F86D3 /* ResultIteratorLevel.swift */; };
+		FA89642AF7EF48B1FE5B2AB27CEA13AD /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = 134E401DC619B8B2C0B52D5B3A6FEF2F /* list.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FBE615106986D6B2CD8E5ACC43B08498 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3CA47502C80FB74784D39D437346B1 /* BoundingBox.swift */; };
+		FCFB038FF2CD6E0007785BE18791BC0D /* bilateral.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1B01060185A982968AC7DB30B63D76 /* bilateral.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FF547E8DAF527CD69700DB35224EE92B /* bmfdata.h in Headers */ = {isa = PBXBuildFile; fileRef = EF4E1EAA4FA75B16269654B471ED7B89 /* bmfdata.h */; settings = {ATTRIBUTES = (Private, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1755646AD62003C90F7BAE7ADC74C228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB4EEF23ECB2BAF774CE8EFA5AF90C40;
+			remoteInfo = "CropViewController-TOCropViewControllerBundle";
+		};
+		E3C9F500FEC4D4BDB27973A797A4269E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC81A5995F9CEB2971CBA61ACA13FCA3;
+			remoteInfo = CropViewController;
+		};
+		F378086BE8B24C9014EDCDB9C8892222 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FDA8701204211983085669C4E12E6FE;
+			remoteInfo = SwiftyTesseract;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0417BE2B0186CEB224A596843185E6EF /* TOCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewController.m; path = "Objective-C/TOCropViewController/TOCropViewController.m"; sourceTree = "<group>"; };
+		0514EA4FC7FE13387744C328E2029BC5 /* tesscallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tesscallback.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/tesscallback.h; sourceTree = "<group>"; };
+		059B7C12AE9ED7A5ED57F8A63711479C /* CropViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CropViewController.modulemap; sourceTree = "<group>"; };
+		05AA6A2F3F8C06149150FC3B90B77C63 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nl.lproj; path = "Objective-C/TOCropViewController/Resources/nl.lproj"; sourceTree = "<group>"; };
+		064A5D8F3D1A47690C4F32D478A6D721 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = "Objective-C/TOCropViewController/Resources/Base.lproj"; sourceTree = "<group>"; };
+		083AE3347F4AC88EFAC9C380966ABE33 /* libjpeg.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libjpeg.a; path = SwiftyTesseract/SwiftyTesseract/dependencies/lib/libjpeg.a; sourceTree = "<group>"; };
+		0DCD2B69ED649FE3B94F28A85DCCE3DB /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "SwiftyTesseract/SwiftyTesseract/Extensions/String+Extensions.swift"; sourceTree = "<group>"; };
+		0DE2E71F0034D1842D00AA785C191F61 /* SwiftyTesseractError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTesseractError.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/SwiftyTesseractError.swift; sourceTree = "<group>"; };
+		0FB3205A783B9CBEBDDEBE7630A1F62B /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOActivityCroppedImageProvider.m; path = "Objective-C/TOCropViewController/Models/TOActivityCroppedImageProvider.m"; sourceTree = "<group>"; };
+		134E401DC619B8B2C0B52D5B3A6FEF2F /* list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = list.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/list.h; sourceTree = "<group>"; };
+		13E86BAD6200EC54A95752AC5DFEE989 /* heap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = heap.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/heap.h; sourceTree = "<group>"; };
+		1505364613EE701C1D4E0D67467C0C88 /* TOCropViewConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewConstants.h; path = "Objective-C/TOCropViewController/Constants/TOCropViewConstants.h"; sourceTree = "<group>"; };
+		16BD191D98F030193CCA2FF116BE35F9 /* Pods-CharacterRecognitionApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CharacterRecognitionApp-frameworks.sh"; sourceTree = "<group>"; };
+		19672639458D5EF5EC76A48F6BF5A2B3 /* CropViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CropViewController.framework; path = CropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD255D87C00F644EFE98615D1F13355 /* sudoku.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sudoku.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/sudoku.h; sourceTree = "<group>"; };
+		1D0868F21BB4FB8CF58D4A1B774D84FF /* CropViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropViewController.release.xcconfig; sourceTree = "<group>"; };
+		1ED01FDC2DD9A56FBFCA6DC4C6DE32E5 /* Pods-CharacterRecognitionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CharacterRecognitionApp.release.xcconfig"; sourceTree = "<group>"; };
+		1EE37E622B2B2249CAC08EA609B7DD1B /* ccbord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ccbord.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/ccbord.h; sourceTree = "<group>"; };
+		1F07A0C108646A2006A90A43912E8C14 /* ocrclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrclass.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/ocrclass.h; sourceTree = "<group>"; };
+		2081449A90C4E50060DB3F8F2563B22B /* libtesseract.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libtesseract.a; path = SwiftyTesseract/SwiftyTesseract/dependencies/lib/libtesseract.a; sourceTree = "<group>"; };
+		2128AD56F6779FA834AD3D8390C68233 /* TOCropOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropOverlayView.m; path = "Objective-C/TOCropViewController/Views/TOCropOverlayView.m"; sourceTree = "<group>"; };
+		2335309F14DE67380269C6707A108760 /* dewarp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dewarp.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/dewarp.h; sourceTree = "<group>"; };
+		24976324C782DED999505D0E47DD6366 /* TOCropToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropToolbar.m; path = "Objective-C/TOCropViewController/Views/TOCropToolbar.m"; sourceTree = "<group>"; };
+		2532003220291F0B5E99EADFC9A6ABE8 /* Pods-CharacterRecognitionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CharacterRecognitionApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2755AC92949C2A3D709B569A32254263 /* libtiff.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libtiff.a; path = SwiftyTesseract/SwiftyTesseract/dependencies/lib/libtiff.a; sourceTree = "<group>"; };
+		28247B14462BBE43285A4D58270F32BD /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = "Objective-C/TOCropViewController/Resources/ko.lproj"; sourceTree = "<group>"; };
+		295152407802E8A8562C1FBA244DE944 /* ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist"; sourceTree = "<group>"; };
+		2C0CDAF2D24D1BA7E5EB611CA9BB84F8 /* tiff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiff.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tiff.h; sourceTree = "<group>"; };
+		2D8B2DF125A862959BFFF1D712EF5372 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = "Objective-C/TOCropViewController/Resources/de.lproj"; sourceTree = "<group>"; };
+		2E70405D903E0C5E20CDFE9FE75E551A /* Pods_CharacterRecognitionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CharacterRecognitionApp.framework; path = "Pods-CharacterRecognitionApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		33725C0375D9F154EACA5D447D062955 /* CropViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropViewController-umbrella.h"; sourceTree = "<group>"; };
+		359EC7D7A73B60D217A81232215CC1E6 /* publictypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = publictypes.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/publictypes.h; sourceTree = "<group>"; };
+		3628DD08D657F171F0FA7625AC23EFE2 /* Pods-CharacterRecognitionApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CharacterRecognitionApp-Info.plist"; sourceTree = "<group>"; };
+		36F938850CAFCCBEE51DF370EDE34F09 /* TOCropScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropScrollView.m; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.m"; sourceTree = "<group>"; };
+		3778407FBB9CA2D1F0BE65B3C7C61A54 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = "Objective-C/TOCropViewController/Resources/it.lproj"; sourceTree = "<group>"; };
+		38E8115561054FF10864BDE146C40C03 /* renderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = renderer.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/renderer.h; sourceTree = "<group>"; };
+		3954D9455D3FFC42EEF8AD179B8544A9 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = "Objective-C/TOCropViewController/Resources/ja.lproj"; sourceTree = "<group>"; };
+		3C3531176A8518FF5FF7F1365AFCF4D8 /* fa.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fa.lproj; path = "Objective-C/TOCropViewController/Resources/fa.lproj"; sourceTree = "<group>"; };
+		3FF81145F8AE8A6B9578F4704E20F586 /* jconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jconfig.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/jconfig.h; sourceTree = "<group>"; };
+		40D45D6109C0D9003306B8BE93F34EDE /* endianness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = endianness.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/endianness.h; sourceTree = "<group>"; };
+		418266A26A64F87F93F44654C767F4D9 /* array.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = array.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/array.h; sourceTree = "<group>"; };
+		41AEC612D90EB9F4653F3B620378BFE4 /* serialis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = serialis.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/serialis.h; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4421051F2C7583F95E61C14DD058382D /* morph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = morph.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/morph.h; sourceTree = "<group>"; };
+		44D404F16FE16D2C97F1EE66F42B50FA /* stringcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stringcode.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/stringcode.h; sourceTree = "<group>"; };
+		4515BD699A790D44AF7100B3BF834319 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hant.lproj"; path = "Objective-C/TOCropViewController/Resources/zh-Hant.lproj"; sourceTree = "<group>"; };
+		4BF0159A276C54B22B27C56A1343F729 /* RecognizedBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecognizedBlock.swift; path = SwiftyTesseract/SwiftyTesseract/Structs/RecognizedBlock.swift; sourceTree = "<group>"; };
+		4D3CA47502C80FB74784D39D437346B1 /* BoundingBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoundingBox.swift; path = SwiftyTesseract/SwiftyTesseract/Structs/BoundingBox.swift; sourceTree = "<group>"; };
+		4EF01D542BE2364A74AF6DCF8937B973 /* tess_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tess_version.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/tess_version.h; sourceTree = "<group>"; };
+		4F4B23C061BB0B85498B03913E67584F /* readbarcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = readbarcode.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/readbarcode.h; sourceTree = "<group>"; };
+		527843C26800162C2A2BF35601E03176 /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = hu.lproj; path = "Objective-C/TOCropViewController/Resources/hu.lproj"; sourceTree = "<group>"; };
+		536A033A9EE4234CF70BA5ADFB250847 /* imageio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imageio.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/imageio.h; sourceTree = "<group>"; };
+		5374726C413C008CF706FEF8AE7A28D4 /* unichar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unichar.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/unichar.h; sourceTree = "<group>"; };
+		552CDD1E1D36B1044844EA1B3534F647 /* rbtree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rbtree.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/rbtree.h; sourceTree = "<group>"; };
+		572071F7A090C3783F3701096443D247 /* pt-BR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "pt-BR.lproj"; path = "Objective-C/TOCropViewController/Resources/pt-BR.lproj"; sourceTree = "<group>"; };
+		57212876F20BF91869807F57CE6C1414 /* pix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pix.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/pix.h; sourceTree = "<group>"; };
+		5745D52D4B0A16E2408BEC85E2C4D267 /* EngineMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EngineMode.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/EngineMode.swift; sourceTree = "<group>"; };
+		5898F2BEA45980BD56867AB7C1466C52 /* Bundle+pathToTrainedData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+pathToTrainedData.swift"; path = "SwiftyTesseract/SwiftyTesseract/Extensions/Bundle+pathToTrainedData.swift"; sourceTree = "<group>"; };
+		59D4033B8DA1D4737511137BD9AD9F1E /* SwiftyTesseract.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyTesseract.modulemap; sourceTree = "<group>"; };
+		5A38B9A567ED15B9789C3E5713F142B9 /* SwiftyTesseract-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTesseract-prefix.pch"; sourceTree = "<group>"; };
+		5BAD54DCA70B0C6C08ABF87F4F04CFB3 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CropRotate.h"; path = "Objective-C/TOCropViewController/Categories/UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		5BB33D05A5131A5D8C9193B9311DA1DD /* environ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = environ.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/environ.h; sourceTree = "<group>"; };
+		5FAE036D98C0680BE5AA737EDDD2F35A /* queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = queue.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/queue.h; sourceTree = "<group>"; };
+		6036FB860BE95303A9B1C77F4D9894E4 /* arrayaccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = arrayaccess.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/arrayaccess.h; sourceTree = "<group>"; };
+		60A90BE46AF1EF0F33395FDDE44C8515 /* bbuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bbuffer.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/bbuffer.h; sourceTree = "<group>"; };
+		60FEF151686FC148F4E8C0C9A09E3AD0 /* Pods-CharacterRecognitionApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CharacterRecognitionApp.modulemap"; sourceTree = "<group>"; };
+		621E9D7D88A2D2552A8352173B77B0E0 /* pngconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pngconf.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/pngconf.h; sourceTree = "<group>"; };
+		62CAE387F77D81F1E466CC5E4689B059 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCroppedImageAttributes.m; path = "Objective-C/TOCropViewController/Models/TOCroppedImageAttributes.m"; sourceTree = "<group>"; };
+		68421E4B7A321DB8F99EA1D145BE8B57 /* CropViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CropViewController-dummy.m"; sourceTree = "<group>"; };
+		6BAE60E8B6B8904E03D0255A2476C191 /* libpng.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libpng.a; path = SwiftyTesseract/SwiftyTesseract/dependencies/lib/libpng.a; sourceTree = "<group>"; };
+		6F17F7711B5B4A4706BFF1A021E6A76A /* SwiftyTesseract.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTesseract.swift; path = SwiftyTesseract/SwiftyTesseract/SwiftyTesseract.swift; sourceTree = "<group>"; };
+		6F8592855EC627C92959861C6BE2B68A /* TOCropOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropOverlayView.h; path = "Objective-C/TOCropViewController/Views/TOCropOverlayView.h"; sourceTree = "<group>"; };
+		6FC849DCB22845B8DE0F08B2AB731901 /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fi.lproj; path = "Objective-C/TOCropViewController/Resources/fi.lproj"; sourceTree = "<group>"; };
+		701834ACF6F89923CC95C255BB9718AF /* Pods-CharacterRecognitionApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CharacterRecognitionApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		706FC732C6A73341DF9B99B6456DD50B /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pt.lproj; path = "Objective-C/TOCropViewController/Resources/pt.lproj"; sourceTree = "<group>"; };
+		7116FF06CB03D0137CB62005A20ABE5B /* TOCropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropView.h; path = "Objective-C/TOCropViewController/Views/TOCropView.h"; sourceTree = "<group>"; };
+		73EE8E363CA6B3E8795B563625270485 /* jerror.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jerror.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/jerror.h; sourceTree = "<group>"; };
+		775FD1C309BE05B45133DC710E9E7E93 /* UIImage+CropRotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CropRotate.m"; path = "Objective-C/TOCropViewController/Categories/UIImage+CropRotate.m"; sourceTree = "<group>"; };
+		7C000CF43D74AC6619583543E66D740D /* leptwin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = leptwin.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/leptwin.h; sourceTree = "<group>"; };
+		83B6A1244E74AE1D65411441AF39D505 /* RecognitionLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecognitionLanguage.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/RecognitionLanguage.swift; sourceTree = "<group>"; };
+		8472E872C2A8C586EBD5A9EE147C2E34 /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = vi.lproj; path = "Objective-C/TOCropViewController/Resources/vi.lproj"; sourceTree = "<group>"; };
+		8845A870B84E6B8C474D2A98D033B8F7 /* baseapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = baseapi.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/baseapi.h; sourceTree = "<group>"; };
+		8B5B06A25A3187EBAF4385A439A63C4E /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ar.lproj; path = "Objective-C/TOCropViewController/Resources/ar.lproj"; sourceTree = "<group>"; };
+		8BD2EFF7A229DF80BD3E216892D733F6 /* alltypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alltypes.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/alltypes.h; sourceTree = "<group>"; };
+		8CB29BD30C249A2089563503B82E42C0 /* bmf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmf.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/bmf.h; sourceTree = "<group>"; };
+		8F1B01060185A982968AC7DB30B63D76 /* bilateral.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bilateral.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/bilateral.h; sourceTree = "<group>"; };
+		8F351CCDEB797EF5B8C716EA9D9A95B2 /* jbclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jbclass.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/jbclass.h; sourceTree = "<group>"; };
+		910FEEC0A10AB774046A9C925D6DFC10 /* tiffvers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiffvers.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tiffvers.h; sourceTree = "<group>"; };
+		9165ADD2D86C56FF0A004E679CA5D764 /* CropViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CropViewController-Info.plist"; sourceTree = "<group>"; };
+		942939EB17C78643356A6D5CD55CA973 /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = tr.lproj; path = "Objective-C/TOCropViewController/Resources/tr.lproj"; sourceTree = "<group>"; };
+		958D6E4C6E3D2283308DDA8875BD31CB /* da-DK.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "da-DK.lproj"; path = "Objective-C/TOCropViewController/Resources/da-DK.lproj"; sourceTree = "<group>"; };
+		969C7637597CE923DFB76ACD6AEF8CCC /* SwiftyTesseract-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTesseract-umbrella.h"; sourceTree = "<group>"; };
+		97A93DCEF2B1499B1F84D43333829DC7 /* TOCropViewControllerBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TOCropViewControllerBundle.bundle; path = "CropViewController-TOCropViewControllerBundle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		996A6434D1B22ADA905D4E239F9FF3E3 /* thresholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thresholder.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/thresholder.h; sourceTree = "<group>"; };
+		9A7FA53DF9E073D7BE8F43655124FF48 /* CropViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewController.swift; path = Swift/CropViewController/CropViewController.swift; sourceTree = "<group>"; };
+		9BFA08F409FD4BD419BD31936B2E83FD /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewControllerTransitioning.h; path = "Objective-C/TOCropViewController/Models/TOCropViewControllerTransitioning.h"; sourceTree = "<group>"; };
+		9C7D01B3195AB1E6DE4D07622A4B3B2D /* pnglibconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pnglibconf.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/pnglibconf.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E5F6A25D67936611A412C48A9D8D62E /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCroppedImageAttributes.h; path = "Objective-C/TOCropViewController/Models/TOCroppedImageAttributes.h"; sourceTree = "<group>"; };
+		9E90D36EC6D0D56162B47239F5A2303A /* CropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CropViewController.h; path = Swift/CropViewController/CropViewController.h; sourceTree = "<group>"; };
+		9FA3FE03621F0C54CE40E885A6295015 /* pageiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pageiterator.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/pageiterator.h; sourceTree = "<group>"; };
+		A0A6E33E2CEE0E50DA5DA4395FA504C6 /* allheaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = allheaders.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/allheaders.h; sourceTree = "<group>"; };
+		A114EEBDE3683C96502ECDF5449A2FDF /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ms.lproj; path = "Objective-C/TOCropViewController/Resources/ms.lproj"; sourceTree = "<group>"; };
+		A13996F692537BEC2BC5AAF7BB166638 /* SwiftyTesseract.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyTesseract.h; path = SwiftyTesseract/SwiftyTesseract/SwiftyTesseract.h; sourceTree = "<group>"; };
+		A1812BBD7AE91AC8B29C3C108CB2BB08 /* resultiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resultiterator.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/resultiterator.h; sourceTree = "<group>"; };
+		A4900129BDFC94F69332F519F811EDD2 /* tiffio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiffio.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tiffio.h; sourceTree = "<group>"; };
+		A740B8A08EAEA0681E126FE6227CB311 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = "Objective-C/TOCropViewController/Resources/fr.lproj"; sourceTree = "<group>"; };
+		A747AFC527F7190473B7AAC4F591F176 /* ptra.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ptra.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/ptra.h; sourceTree = "<group>"; };
+		A7FCE0EF61B103BE21505ED15AB3E5CC /* capi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = capi.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/capi.h; sourceTree = "<group>"; };
+		A95ED83274BF6B4722111BA78D6E15E7 /* CropViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropViewController-prefix.pch"; sourceTree = "<group>"; };
+		B0E799AC48314DE55DDA409D03DC376F /* osdetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = osdetect.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/osdetect.h; sourceTree = "<group>"; };
+		B1612AE2918947CA84EBA1AA222F2B1C /* Pods-CharacterRecognitionApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CharacterRecognitionApp-dummy.m"; sourceTree = "<group>"; };
+		B9F77D7FA8C3B98288BC0D64700E4C2D /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = "Objective-C/TOCropViewController/Resources/es.lproj"; sourceTree = "<group>"; };
+		BAE63792091F2F186C52E5C3324ACB75 /* regutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = regutils.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/regutils.h; sourceTree = "<group>"; };
+		BB8BEEAAC4DB3281D3A91A04EEC4AD8F /* TOCropScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropScrollView.h; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.h"; sourceTree = "<group>"; };
+		BC1E236B5591ACCDF04CAA791D4CC2C6 /* watershed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = watershed.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/watershed.h; sourceTree = "<group>"; };
+		BC1FD56888CDA9D60D28D3E3F69DF8D3 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.lproj; path = "Objective-C/TOCropViewController/Resources/pl.lproj"; sourceTree = "<group>"; };
+		BC4AC1B20C23ADB10171764231907D47 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = id.lproj; path = "Objective-C/TOCropViewController/Resources/id.lproj"; sourceTree = "<group>"; };
+		BD9E95B5611975F9F90FF522BA1B2AFF /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = "Objective-C/TOCropViewController/Resources/ru.lproj"; sourceTree = "<group>"; };
+		C0CFA7E6D9165383C655D116EA84149A /* TOCropToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropToolbar.h; path = "Objective-C/TOCropViewController/Views/TOCropToolbar.h"; sourceTree = "<group>"; };
+		C24527BEB48E9079D6CE0B226F34488D /* ro.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ro.lproj; path = "Objective-C/TOCropViewController/Resources/ro.lproj"; sourceTree = "<group>"; };
+		C26069F5C17773F5AC4B36988898D8DB /* SwiftyTesseract.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTesseract.release.xcconfig; sourceTree = "<group>"; };
+		C2B50256CDCC6115461BF74E43A3FAFE /* platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = platform.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/platform.h; sourceTree = "<group>"; };
+		C4BEB231CCF30642247B0774FC6F86D3 /* ResultIteratorLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultIteratorLevel.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/ResultIteratorLevel.swift; sourceTree = "<group>"; };
+		C652AD0633DA2A36BBA91E355BEE10BB /* fa-IR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "fa-IR.lproj"; path = "Objective-C/TOCropViewController/Resources/fa-IR.lproj"; sourceTree = "<group>"; };
+		C66CD3FDC3B1844C33D288FCB3973F2F /* recog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = recog.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/recog.h; sourceTree = "<group>"; };
+		C766029B1CB1C688E843093E088614FE /* TOCropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropView.m; path = "Objective-C/TOCropViewController/Views/TOCropView.m"; sourceTree = "<group>"; };
+		CAB3084484FE2F0B42BD10325F160E77 /* helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = helpers.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/helpers.h; sourceTree = "<group>"; };
+		CAE00A07327C68C623EE3302C63C2A0A /* SwiftyTesseract-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyTesseract-Info.plist"; sourceTree = "<group>"; };
+		CEE42C545A0B22D16B30EACCAA6359F9 /* jmorecfg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jmorecfg.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/jmorecfg.h; sourceTree = "<group>"; };
+		CFF52CA29493BA484503A3DB4104B300 /* jpeglib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jpeglib.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/jpeglib.h; sourceTree = "<group>"; };
+		D09CA29ACA1649B1A2FB22B97909FAEF /* ltrresultiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ltrresultiterator.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/ltrresultiterator.h; sourceTree = "<group>"; };
+		D442582E1C97C79145F6EBEE5FD4AB67 /* strngs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strngs.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/strngs.h; sourceTree = "<group>"; };
+		D818D18ED469682E2AE6E0911A2A7AF4 /* CropViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropViewController.debug.xcconfig; sourceTree = "<group>"; };
+		DC0F64A00330519AD4BC56443A7DAFFE /* apitypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = apitypes.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/apitypes.h; sourceTree = "<group>"; };
+		DD0320B4F81759E2B49352956BE9FFE8 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewControllerTransitioning.m; path = "Objective-C/TOCropViewController/Models/TOCropViewControllerTransitioning.m"; sourceTree = "<group>"; };
+		DE497656F77030F2938860AA30D4E931 /* LanguageModelDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageModelDataSource.swift; path = SwiftyTesseract/SwiftyTesseract/Protocols/LanguageModelDataSource.swift; sourceTree = "<group>"; };
+		DEB34F33107D6D51DE02F01AD4D1B1BD /* png.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = png.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/png.h; sourceTree = "<group>"; };
+		E0BE28248981E0DFFDD7F84FF2B8868A /* tiffconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiffconf.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tiffconf.h; sourceTree = "<group>"; };
+		E0FBBF61628360A24EF662858E81A42A /* Pods-CharacterRecognitionApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CharacterRecognitionApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E1AE1221B6699FA1404749FCF742A403 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "Objective-C/TOCropViewController/Resources/zh-Hans.lproj"; sourceTree = "<group>"; };
+		E5EDA1101D8EE31F6E6D9CAE99181394 /* TesseractVariableName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TesseractVariableName.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/TesseractVariableName.swift; sourceTree = "<group>"; };
+		E6D8B6FF934D70BAD148836ED02CE37D /* genericvector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = genericvector.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/genericvector.h; sourceTree = "<group>"; };
+		E74D22651AB9F98C8E4A68320C1E5A08 /* liblept.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblept.a; path = SwiftyTesseract/SwiftyTesseract/dependencies/lib/liblept.a; sourceTree = "<group>"; };
+		E93768A5DBE568ABBFF8B25311819DF1 /* SwiftyTesseract.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTesseract.debug.xcconfig; sourceTree = "<group>"; };
+		EBEA0C47F4AA192619EE35D01DE4B2F8 /* TOCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewController.h; path = "Objective-C/TOCropViewController/TOCropViewController.h"; sourceTree = "<group>"; };
+		ECC9DBED1EE5DC37F8E1D8171A45BAE0 /* SwiftyTesseract-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyTesseract-dummy.m"; sourceTree = "<group>"; };
+		ED1447F8A96D9CD5E1FF8115995CE31A /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = "Objective-C/TOCropViewController/Resources/en.lproj"; sourceTree = "<group>"; };
+		EE66BA3267F218BE4900B27E7EADCEB0 /* bmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmp.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/bmp.h; sourceTree = "<group>"; };
+		EF4E1EAA4FA75B16269654B471ED7B89 /* bmfdata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmfdata.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/bmfdata.h; sourceTree = "<group>"; };
+		F013FF3A084833DF1FA3690A45A69E1F /* Pods-CharacterRecognitionApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CharacterRecognitionApp-umbrella.h"; sourceTree = "<group>"; };
+		F6E3B8BC238866073523ED9347EED4C6 /* SwiftyTesseract.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyTesseract.framework; path = SwiftyTesseract.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91D580221FE266E07BBE5BA0B8FEE74 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOActivityCroppedImageProvider.h; path = "Objective-C/TOCropViewController/Models/TOActivityCroppedImageProvider.h"; sourceTree = "<group>"; };
+		F96D34CD6C86586DA3F21D075E09E94E /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/stack.h; sourceTree = "<group>"; };
+		FA5956060BDF2CF0F045009A9F8FB6CB /* LanguageStringConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageStringConverter.swift; path = SwiftyTesseract/SwiftyTesseract/Protocols/LanguageStringConverter.swift; sourceTree = "<group>"; };
+		FF6765D052475EBAB938DD6881657290 /* gplot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gplot.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/gplot.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09167016A58C8E9EE2F5E618C553F757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03CD211C75519D4F15BB6DF1F1FB255 /* Foundation.framework in Frameworks */,
+				A87FDF021D45D0B1F5C36447FAD41B0D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3508AB8B4880EB62637C47BAA6B50719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91483F270E79531E50F239E4D5D3B327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA655628154FFF8D0A863F0617A5580D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB46AD2E2DE83E7869BFB9476FEC9FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E23C9D9769D68658E945E6F04D8499B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AEE65DEB3C8E3ECA86EBB9F465EDDA4 /* Pods-CharacterRecognitionApp */ = {
+			isa = PBXGroup;
+			children = (
+				60FEF151686FC148F4E8C0C9A09E3AD0 /* Pods-CharacterRecognitionApp.modulemap */,
+				E0FBBF61628360A24EF662858E81A42A /* Pods-CharacterRecognitionApp-acknowledgements.markdown */,
+				701834ACF6F89923CC95C255BB9718AF /* Pods-CharacterRecognitionApp-acknowledgements.plist */,
+				B1612AE2918947CA84EBA1AA222F2B1C /* Pods-CharacterRecognitionApp-dummy.m */,
+				16BD191D98F030193CCA2FF116BE35F9 /* Pods-CharacterRecognitionApp-frameworks.sh */,
+				3628DD08D657F171F0FA7625AC23EFE2 /* Pods-CharacterRecognitionApp-Info.plist */,
+				F013FF3A084833DF1FA3690A45A69E1F /* Pods-CharacterRecognitionApp-umbrella.h */,
+				2532003220291F0B5E99EADFC9A6ABE8 /* Pods-CharacterRecognitionApp.debug.xcconfig */,
+				1ED01FDC2DD9A56FBFCA6DC4C6DE32E5 /* Pods-CharacterRecognitionApp.release.xcconfig */,
+			);
+			name = "Pods-CharacterRecognitionApp";
+			path = "Target Support Files/Pods-CharacterRecognitionApp";
+			sourceTree = "<group>";
+		};
+		0C3183830F4F2D82E0741F98689795B3 /* CropViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E90D36EC6D0D56162B47239F5A2303A /* CropViewController.h */,
+				9A7FA53DF9E073D7BE8F43655124FF48 /* CropViewController.swift */,
+				F91D580221FE266E07BBE5BA0B8FEE74 /* TOActivityCroppedImageProvider.h */,
+				0FB3205A783B9CBEBDDEBE7630A1F62B /* TOActivityCroppedImageProvider.m */,
+				6F8592855EC627C92959861C6BE2B68A /* TOCropOverlayView.h */,
+				2128AD56F6779FA834AD3D8390C68233 /* TOCropOverlayView.m */,
+				9E5F6A25D67936611A412C48A9D8D62E /* TOCroppedImageAttributes.h */,
+				62CAE387F77D81F1E466CC5E4689B059 /* TOCroppedImageAttributes.m */,
+				BB8BEEAAC4DB3281D3A91A04EEC4AD8F /* TOCropScrollView.h */,
+				36F938850CAFCCBEE51DF370EDE34F09 /* TOCropScrollView.m */,
+				C0CFA7E6D9165383C655D116EA84149A /* TOCropToolbar.h */,
+				24976324C782DED999505D0E47DD6366 /* TOCropToolbar.m */,
+				7116FF06CB03D0137CB62005A20ABE5B /* TOCropView.h */,
+				C766029B1CB1C688E843093E088614FE /* TOCropView.m */,
+				1505364613EE701C1D4E0D67467C0C88 /* TOCropViewConstants.h */,
+				EBEA0C47F4AA192619EE35D01DE4B2F8 /* TOCropViewController.h */,
+				0417BE2B0186CEB224A596843185E6EF /* TOCropViewController.m */,
+				9BFA08F409FD4BD419BD31936B2E83FD /* TOCropViewControllerTransitioning.h */,
+				DD0320B4F81759E2B49352956BE9FFE8 /* TOCropViewControllerTransitioning.m */,
+				5BAD54DCA70B0C6C08ABF87F4F04CFB3 /* UIImage+CropRotate.h */,
+				775FD1C309BE05B45133DC710E9E7E93 /* UIImage+CropRotate.m */,
+				0DD4BE559B192CA776F3AD1F3B9100AA /* Resources */,
+				DB48CA965AD62AC59328241209A4B9F0 /* Support Files */,
+			);
+			name = CropViewController;
+			path = CropViewController;
+			sourceTree = "<group>";
+		};
+		0DD4BE559B192CA776F3AD1F3B9100AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B5B06A25A3187EBAF4385A439A63C4E /* ar.lproj */,
+				064A5D8F3D1A47690C4F32D478A6D721 /* Base.lproj */,
+				958D6E4C6E3D2283308DDA8875BD31CB /* da-DK.lproj */,
+				2D8B2DF125A862959BFFF1D712EF5372 /* de.lproj */,
+				ED1447F8A96D9CD5E1FF8115995CE31A /* en.lproj */,
+				B9F77D7FA8C3B98288BC0D64700E4C2D /* es.lproj */,
+				3C3531176A8518FF5FF7F1365AFCF4D8 /* fa.lproj */,
+				C652AD0633DA2A36BBA91E355BEE10BB /* fa-IR.lproj */,
+				6FC849DCB22845B8DE0F08B2AB731901 /* fi.lproj */,
+				A740B8A08EAEA0681E126FE6227CB311 /* fr.lproj */,
+				527843C26800162C2A2BF35601E03176 /* hu.lproj */,
+				BC4AC1B20C23ADB10171764231907D47 /* id.lproj */,
+				3778407FBB9CA2D1F0BE65B3C7C61A54 /* it.lproj */,
+				3954D9455D3FFC42EEF8AD179B8544A9 /* ja.lproj */,
+				28247B14462BBE43285A4D58270F32BD /* ko.lproj */,
+				A114EEBDE3683C96502ECDF5449A2FDF /* ms.lproj */,
+				05AA6A2F3F8C06149150FC3B90B77C63 /* nl.lproj */,
+				BC1FD56888CDA9D60D28D3E3F69DF8D3 /* pl.lproj */,
+				706FC732C6A73341DF9B99B6456DD50B /* pt.lproj */,
+				572071F7A090C3783F3701096443D247 /* pt-BR.lproj */,
+				C24527BEB48E9079D6CE0B226F34488D /* ro.lproj */,
+				BD9E95B5611975F9F90FF522BA1B2AFF /* ru.lproj */,
+				942939EB17C78643356A6D5CD55CA973 /* tr.lproj */,
+				8472E872C2A8C586EBD5A9EE147C2E34 /* vi.lproj */,
+				E1AE1221B6699FA1404749FCF742A403 /* zh-Hans.lproj */,
+				4515BD699A790D44AF7100B3BF834319 /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A21690FB411282C198FDC71FCA93E92 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59D4033B8DA1D4737511137BD9AD9F1E /* SwiftyTesseract.modulemap */,
+				ECC9DBED1EE5DC37F8E1D8171A45BAE0 /* SwiftyTesseract-dummy.m */,
+				CAE00A07327C68C623EE3302C63C2A0A /* SwiftyTesseract-Info.plist */,
+				5A38B9A567ED15B9789C3E5713F142B9 /* SwiftyTesseract-prefix.pch */,
+				969C7637597CE923DFB76ACD6AEF8CCC /* SwiftyTesseract-umbrella.h */,
+				E93768A5DBE568ABBFF8B25311819DF1 /* SwiftyTesseract.debug.xcconfig */,
+				C26069F5C17773F5AC4B36988898D8DB /* SwiftyTesseract.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyTesseract";
+			sourceTree = "<group>";
+		};
+		5A2B26AC5E2330C94669E806D92A41CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C3183830F4F2D82E0741F98689795B3 /* CropViewController */,
+				E2382371663FE7DC75BF4F528923BC90 /* SwiftyTesseract */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5AF06C3EB82529BD2444EAA1502557F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19672639458D5EF5EC76A48F6BF5A2B3 /* CropViewController.framework */,
+				2E70405D903E0C5E20CDFE9FE75E551A /* Pods_CharacterRecognitionApp.framework */,
+				F6E3B8BC238866073523ED9347EED4C6 /* SwiftyTesseract.framework */,
+				97A93DCEF2B1499B1F84D43333829DC7 /* TOCropViewControllerBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		710E90E474F8EE4E70208B098FC12FEA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AEE65DEB3C8E3ECA86EBB9F465EDDA4 /* Pods-CharacterRecognitionApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B7CA6735D2B870C947248E635C6F837F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				083AE3347F4AC88EFAC9C380966ABE33 /* libjpeg.a */,
+				E74D22651AB9F98C8E4A68320C1E5A08 /* liblept.a */,
+				6BAE60E8B6B8904E03D0255A2476C191 /* libpng.a */,
+				2081449A90C4E50060DB3F8F2563B22B /* libtesseract.a */,
+				2755AC92949C2A3D709B569A32254263 /* libtiff.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				5A2B26AC5E2330C94669E806D92A41CC /* Pods */,
+				5AF06C3EB82529BD2444EAA1502557F6 /* Products */,
+				710E90E474F8EE4E70208B098FC12FEA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DB48CA965AD62AC59328241209A4B9F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				059B7C12AE9ED7A5ED57F8A63711479C /* CropViewController.modulemap */,
+				68421E4B7A321DB8F99EA1D145BE8B57 /* CropViewController-dummy.m */,
+				9165ADD2D86C56FF0A004E679CA5D764 /* CropViewController-Info.plist */,
+				A95ED83274BF6B4722111BA78D6E15E7 /* CropViewController-prefix.pch */,
+				33725C0375D9F154EACA5D447D062955 /* CropViewController-umbrella.h */,
+				D818D18ED469682E2AE6E0911A2A7AF4 /* CropViewController.debug.xcconfig */,
+				1D0868F21BB4FB8CF58D4A1B774D84FF /* CropViewController.release.xcconfig */,
+				295152407802E8A8562C1FBA244DE944 /* ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CropViewController";
+			sourceTree = "<group>";
+		};
+		E2382371663FE7DC75BF4F528923BC90 /* SwiftyTesseract */ = {
+			isa = PBXGroup;
+			children = (
+				A0A6E33E2CEE0E50DA5DA4395FA504C6 /* allheaders.h */,
+				8BD2EFF7A229DF80BD3E216892D733F6 /* alltypes.h */,
+				DC0F64A00330519AD4BC56443A7DAFFE /* apitypes.h */,
+				418266A26A64F87F93F44654C767F4D9 /* array.h */,
+				6036FB860BE95303A9B1C77F4D9894E4 /* arrayaccess.h */,
+				8845A870B84E6B8C474D2A98D033B8F7 /* baseapi.h */,
+				60A90BE46AF1EF0F33395FDDE44C8515 /* bbuffer.h */,
+				8F1B01060185A982968AC7DB30B63D76 /* bilateral.h */,
+				8CB29BD30C249A2089563503B82E42C0 /* bmf.h */,
+				EF4E1EAA4FA75B16269654B471ED7B89 /* bmfdata.h */,
+				EE66BA3267F218BE4900B27E7EADCEB0 /* bmp.h */,
+				4D3CA47502C80FB74784D39D437346B1 /* BoundingBox.swift */,
+				5898F2BEA45980BD56867AB7C1466C52 /* Bundle+pathToTrainedData.swift */,
+				A7FCE0EF61B103BE21505ED15AB3E5CC /* capi.h */,
+				1EE37E622B2B2249CAC08EA609B7DD1B /* ccbord.h */,
+				2335309F14DE67380269C6707A108760 /* dewarp.h */,
+				40D45D6109C0D9003306B8BE93F34EDE /* endianness.h */,
+				5745D52D4B0A16E2408BEC85E2C4D267 /* EngineMode.swift */,
+				5BB33D05A5131A5D8C9193B9311DA1DD /* environ.h */,
+				E6D8B6FF934D70BAD148836ED02CE37D /* genericvector.h */,
+				FF6765D052475EBAB938DD6881657290 /* gplot.h */,
+				13E86BAD6200EC54A95752AC5DFEE989 /* heap.h */,
+				CAB3084484FE2F0B42BD10325F160E77 /* helpers.h */,
+				536A033A9EE4234CF70BA5ADFB250847 /* imageio.h */,
+				8F351CCDEB797EF5B8C716EA9D9A95B2 /* jbclass.h */,
+				3FF81145F8AE8A6B9578F4704E20F586 /* jconfig.h */,
+				73EE8E363CA6B3E8795B563625270485 /* jerror.h */,
+				CEE42C545A0B22D16B30EACCAA6359F9 /* jmorecfg.h */,
+				CFF52CA29493BA484503A3DB4104B300 /* jpeglib.h */,
+				DE497656F77030F2938860AA30D4E931 /* LanguageModelDataSource.swift */,
+				FA5956060BDF2CF0F045009A9F8FB6CB /* LanguageStringConverter.swift */,
+				7C000CF43D74AC6619583543E66D740D /* leptwin.h */,
+				134E401DC619B8B2C0B52D5B3A6FEF2F /* list.h */,
+				D09CA29ACA1649B1A2FB22B97909FAEF /* ltrresultiterator.h */,
+				4421051F2C7583F95E61C14DD058382D /* morph.h */,
+				1F07A0C108646A2006A90A43912E8C14 /* ocrclass.h */,
+				B0E799AC48314DE55DDA409D03DC376F /* osdetect.h */,
+				9FA3FE03621F0C54CE40E885A6295015 /* pageiterator.h */,
+				57212876F20BF91869807F57CE6C1414 /* pix.h */,
+				C2B50256CDCC6115461BF74E43A3FAFE /* platform.h */,
+				DEB34F33107D6D51DE02F01AD4D1B1BD /* png.h */,
+				621E9D7D88A2D2552A8352173B77B0E0 /* pngconf.h */,
+				9C7D01B3195AB1E6DE4D07622A4B3B2D /* pnglibconf.h */,
+				A747AFC527F7190473B7AAC4F591F176 /* ptra.h */,
+				359EC7D7A73B60D217A81232215CC1E6 /* publictypes.h */,
+				5FAE036D98C0680BE5AA737EDDD2F35A /* queue.h */,
+				552CDD1E1D36B1044844EA1B3534F647 /* rbtree.h */,
+				4F4B23C061BB0B85498B03913E67584F /* readbarcode.h */,
+				C66CD3FDC3B1844C33D288FCB3973F2F /* recog.h */,
+				83B6A1244E74AE1D65411441AF39D505 /* RecognitionLanguage.swift */,
+				4BF0159A276C54B22B27C56A1343F729 /* RecognizedBlock.swift */,
+				BAE63792091F2F186C52E5C3324ACB75 /* regutils.h */,
+				38E8115561054FF10864BDE146C40C03 /* renderer.h */,
+				A1812BBD7AE91AC8B29C3C108CB2BB08 /* resultiterator.h */,
+				C4BEB231CCF30642247B0774FC6F86D3 /* ResultIteratorLevel.swift */,
+				41AEC612D90EB9F4653F3B620378BFE4 /* serialis.h */,
+				F96D34CD6C86586DA3F21D075E09E94E /* stack.h */,
+				0DCD2B69ED649FE3B94F28A85DCCE3DB /* String+Extensions.swift */,
+				44D404F16FE16D2C97F1EE66F42B50FA /* stringcode.h */,
+				D442582E1C97C79145F6EBEE5FD4AB67 /* strngs.h */,
+				1AD255D87C00F644EFE98615D1F13355 /* sudoku.h */,
+				A13996F692537BEC2BC5AAF7BB166638 /* SwiftyTesseract.h */,
+				6F17F7711B5B4A4706BFF1A021E6A76A /* SwiftyTesseract.swift */,
+				0DE2E71F0034D1842D00AA785C191F61 /* SwiftyTesseractError.swift */,
+				4EF01D542BE2364A74AF6DCF8937B973 /* tess_version.h */,
+				0514EA4FC7FE13387744C328E2029BC5 /* tesscallback.h */,
+				E5EDA1101D8EE31F6E6D9CAE99181394 /* TesseractVariableName.swift */,
+				996A6434D1B22ADA905D4E239F9FF3E3 /* thresholder.h */,
+				2C0CDAF2D24D1BA7E5EB611CA9BB84F8 /* tiff.h */,
+				E0BE28248981E0DFFDD7F84FF2B8868A /* tiffconf.h */,
+				A4900129BDFC94F69332F519F811EDD2 /* tiffio.h */,
+				910FEEC0A10AB774046A9C925D6DFC10 /* tiffvers.h */,
+				5374726C413C008CF706FEF8AE7A28D4 /* unichar.h */,
+				BC1E236B5591ACCDF04CAA791D4CC2C6 /* watershed.h */,
+				B7CA6735D2B870C947248E635C6F837F /* Frameworks */,
+				5A21690FB411282C198FDC71FCA93E92 /* Support Files */,
+			);
+			name = SwiftyTesseract;
+			path = SwiftyTesseract;
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10D0073AF8DCF0CD19E3909D5026F6FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F0B373150B140E4C5146FE656906A8 /* allheaders.h in Headers */,
+				B787A05CA157DEAE9E2AD1C3851F44AD /* alltypes.h in Headers */,
+				81D568880BCCC5D0B4C9948E6BDE11C1 /* apitypes.h in Headers */,
+				F7EACED21E5EDB96A670438D840BE67F /* array.h in Headers */,
+				C3444BDA4982E3239098FE7B42C6C390 /* arrayaccess.h in Headers */,
+				BD9237A4DDA1F216437F8BCC2CC97B6C /* baseapi.h in Headers */,
+				BE4150D98B1C26C9303206B7F4DA09D1 /* bbuffer.h in Headers */,
+				FCFB038FF2CD6E0007785BE18791BC0D /* bilateral.h in Headers */,
+				0EDED454CD723B8AAE762A605FA9C701 /* bmf.h in Headers */,
+				FF547E8DAF527CD69700DB35224EE92B /* bmfdata.h in Headers */,
+				42729E1C419A73A3DAD57DC016C4C23A /* bmp.h in Headers */,
+				F16B863CC7ED043E48C54D1AC5CBC92F /* capi.h in Headers */,
+				01D575C8F225A42040168B8580D7CEE1 /* ccbord.h in Headers */,
+				919446D64B5BE55BCAEB626FF2D798D5 /* dewarp.h in Headers */,
+				A03ABA4E99AF27B5ABE1543785A33E0C /* endianness.h in Headers */,
+				CEC3D47F1098FE57B9A1106ECFF02883 /* environ.h in Headers */,
+				6D0E2454EFDB58A661E5E9ED6FE22354 /* genericvector.h in Headers */,
+				421C8AFDAE630B9097DF79E63016AAFB /* gplot.h in Headers */,
+				2B106EFF951EBEA0FF94281ED80A30B4 /* heap.h in Headers */,
+				6B600105D57454B433EA2B23F3251D66 /* helpers.h in Headers */,
+				E354F75982EB74FBB009333ECBE9D4BC /* imageio.h in Headers */,
+				BCF977892C2AA6D66A6A953BDC527641 /* jbclass.h in Headers */,
+				A754A85E76693D7E16823E9DB8B8AB0C /* jconfig.h in Headers */,
+				E5BB087F887F6666EC86424527965D1A /* jerror.h in Headers */,
+				440FE2B03F4779E8FA0CA7FDF697D821 /* jmorecfg.h in Headers */,
+				A70FF843DF493782404BD78611DC7E3B /* jpeglib.h in Headers */,
+				B4946CF847BA67510D1FDB9399A02C4E /* leptwin.h in Headers */,
+				FA89642AF7EF48B1FE5B2AB27CEA13AD /* list.h in Headers */,
+				B16BAC0F68CF54A30F067F7E5F00E0A4 /* ltrresultiterator.h in Headers */,
+				34F86C4B043E7852A3EF41D9B1FC80F4 /* morph.h in Headers */,
+				E87F29B9B8A0EBDEFDD66222E655059A /* ocrclass.h in Headers */,
+				72F0225A3C905CF3B4B69739A2392F52 /* osdetect.h in Headers */,
+				AB7F1C7D67867968A8BB6A01EC90DD64 /* pageiterator.h in Headers */,
+				E0C0CEE594FECF517EE6554402E39D08 /* pix.h in Headers */,
+				1D0E6626C3DF603C02919934589745A4 /* platform.h in Headers */,
+				8D799CC9894026986F23F7E9187F43C2 /* png.h in Headers */,
+				1AD781F0E8038C3EB5241C0B6B59D620 /* pngconf.h in Headers */,
+				54E8F3F79732BDB75391BA14ABDAFDA5 /* pnglibconf.h in Headers */,
+				4F7F501F3844F12D9E469E7CE3C26FD8 /* ptra.h in Headers */,
+				199AEA4A791F7D9BD13FB08A838EDD3A /* publictypes.h in Headers */,
+				976CC62C8BE838C9925B23374BD7625A /* queue.h in Headers */,
+				22A165C0CAE7878CE54C5CCF083F4A2E /* rbtree.h in Headers */,
+				BCCDBA6A0EE034D5C9F975E61F5FA456 /* readbarcode.h in Headers */,
+				356B3AC29353AADFBAA8CF5B8E7C8722 /* recog.h in Headers */,
+				B11875741D553F29E193E3890CD16B89 /* regutils.h in Headers */,
+				244697D0F1B7003CA452AF4E06959B55 /* renderer.h in Headers */,
+				CFE722B06F0632206EE9F6AE3B374AB9 /* resultiterator.h in Headers */,
+				2AC2BA05B1063BF8F6BCBF0968A2F7D8 /* serialis.h in Headers */,
+				86F1E48DDBBCA77850C8159DA7772E06 /* stack.h in Headers */,
+				DB077EB9830CCC41EA46B3B8D55997FF /* stringcode.h in Headers */,
+				27662C42DF74AAA15565B5196E0D9ED2 /* strngs.h in Headers */,
+				37BEF23F4B2049217AFEEFA1FAC15FF8 /* sudoku.h in Headers */,
+				44B64A745B1FD8412877004835564237 /* SwiftyTesseract-umbrella.h in Headers */,
+				D96151D34C384B696FB3D7576EBBC1C7 /* SwiftyTesseract.h in Headers */,
+				EA4A1BA30F024245103E9862A90DAF40 /* tess_version.h in Headers */,
+				9B592D98CAE560D191FD68BD203C8DC3 /* tesscallback.h in Headers */,
+				8B2DD460AF59B56F6A5F9219B1123AF6 /* thresholder.h in Headers */,
+				A16A07BEEA3B76EFF654F69F865BA8B8 /* tiff.h in Headers */,
+				F919D320010C3EF2C47934B50E2B37D5 /* tiffconf.h in Headers */,
+				DEB8275C4958336C6824C344D1E6C792 /* tiffio.h in Headers */,
+				4C3D76401BA05EE8E38C853ED9E6F256 /* tiffvers.h in Headers */,
+				A4F3E2FC5063C4F3602ACDB13E315713 /* unichar.h in Headers */,
+				58B75C2BF14C7D6812C20104D45073F8 /* watershed.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1135E815F4A3FFD3741155C36E66CF76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C41B9A9B938CE09649492D3B333554E /* Pods-CharacterRecognitionApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8D1776A520812F8F58FED87B702CE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAAA73FF9068FC7FD59782E84433D9D /* CropViewController-umbrella.h in Headers */,
+				DB1234F5AEBB99CAFBD091C65F59D3EE /* CropViewController.h in Headers */,
+				4BA564C9A4D51CFB5930C77E9E92FF11 /* TOActivityCroppedImageProvider.h in Headers */,
+				AEDCB7E481D4563A9CA6A9CE3CE285F2 /* TOCropOverlayView.h in Headers */,
+				5EB1A56FB922629093CEE3ACE912F44B /* TOCroppedImageAttributes.h in Headers */,
+				8D8D106AA03DEF31A98088E3FB03133B /* TOCropScrollView.h in Headers */,
+				EA9000D13577463FE3632471AEE05228 /* TOCropToolbar.h in Headers */,
+				C5ECDBD5830B0D787FEFC80EAAF23DFB /* TOCropView.h in Headers */,
+				47861484AA0C434E56E6F252AF863815 /* TOCropViewConstants.h in Headers */,
+				AC7E3966EF061B3BE31E1F36CF2F4BB4 /* TOCropViewController.h in Headers */,
+				4FDF851B7B66B5F47086CAF035CC45D5 /* TOCropViewControllerTransitioning.h in Headers */,
+				00C413D630779ABAA8102DF84E257506 /* UIImage+CropRotate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5FDA8701204211983085669C4E12E6FE /* SwiftyTesseract */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B30045853BC66FA1F360F44FC5D085 /* Build configuration list for PBXNativeTarget "SwiftyTesseract" */;
+			buildPhases = (
+				10D0073AF8DCF0CD19E3909D5026F6FC /* Headers */,
+				047F01BF1F8C81E3B8B64AE57947B178 /* Sources */,
+				09167016A58C8E9EE2F5E618C553F757 /* Frameworks */,
+				D5C3FFC3C9B6A8369BE90E459AA2838E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyTesseract;
+			productName = SwiftyTesseract;
+			productReference = F6E3B8BC238866073523ED9347EED4C6 /* SwiftyTesseract.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		929DCA29B6B1C1E74E96F2FA3112DA1F /* Pods-CharacterRecognitionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 061D517EEA3E8AC34BFDF4993ECD714D /* Build configuration list for PBXNativeTarget "Pods-CharacterRecognitionApp" */;
+			buildPhases = (
+				1135E815F4A3FFD3741155C36E66CF76 /* Headers */,
+				F9FDDAC03DC0C08AC3CD69A09B9567D3 /* Sources */,
+				DB46AD2E2DE83E7869BFB9476FEC9FF4 /* Frameworks */,
+				5383FE6CFA31DB6B70B244B1C81E6490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B24B5700046E417FC88B29876216D402 /* PBXTargetDependency */,
+				EE6972AF1517B7BBB61B61E23C3C7E15 /* PBXTargetDependency */,
+			);
+			name = "Pods-CharacterRecognitionApp";
+			productName = "Pods-CharacterRecognitionApp";
+			productReference = 2E70405D903E0C5E20CDFE9FE75E551A /* Pods_CharacterRecognitionApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB4EEF23ECB2BAF774CE8EFA5AF90C40 /* CropViewController-TOCropViewControllerBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13DEE028357EB363A6DFAFEC1C7D5575 /* Build configuration list for PBXNativeTarget "CropViewController-TOCropViewControllerBundle" */;
+			buildPhases = (
+				58A9767912533C30AF1FA5952D9E06D9 /* Sources */,
+				3508AB8B4880EB62637C47BAA6B50719 /* Frameworks */,
+				687659ED0AB668A0A4017F7783F88C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CropViewController-TOCropViewControllerBundle";
+			productName = "CropViewController-TOCropViewControllerBundle";
+			productReference = 97A93DCEF2B1499B1F84D43333829DC7 /* TOCropViewControllerBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CC81A5995F9CEB2971CBA61ACA13FCA3 /* CropViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D1DF486B12BF094FFE6FAD40D50142 /* Build configuration list for PBXNativeTarget "CropViewController" */;
+			buildPhases = (
+				FE8D1776A520812F8F58FED87B702CE4 /* Headers */,
+				0B1E371D70D79E8AA0B1FF08781CC8BB /* Sources */,
+				91483F270E79531E50F239E4D5D3B327 /* Frameworks */,
+				488550658991A1C6A00C99247438D556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E45CF4216D64DD43E4FF564039D05089 /* PBXTargetDependency */,
+			);
+			name = CropViewController;
+			productName = CropViewController;
+			productReference = 19672639458D5EF5EC76A48F6BF5A2B3 /* CropViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5AF06C3EB82529BD2444EAA1502557F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC81A5995F9CEB2971CBA61ACA13FCA3 /* CropViewController */,
+				BB4EEF23ECB2BAF774CE8EFA5AF90C40 /* CropViewController-TOCropViewControllerBundle */,
+				929DCA29B6B1C1E74E96F2FA3112DA1F /* Pods-CharacterRecognitionApp */,
+				5FDA8701204211983085669C4E12E6FE /* SwiftyTesseract */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		488550658991A1C6A00C99247438D556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11412B800ED37F0FC1DD241DB0914098 /* TOCropViewControllerBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5383FE6CFA31DB6B70B244B1C81E6490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687659ED0AB668A0A4017F7783F88C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745905EADE10CA025812B5F0D4AC3340 /* ar.lproj in Resources */,
+				EEE0D3C75AD36D038BB20C20FA47F0E0 /* Base.lproj in Resources */,
+				C99C5022A4A2FA0C4572B7216819A1C4 /* da-DK.lproj in Resources */,
+				BF3DACC2CA45F6C62877E8A87E90E39F /* de.lproj in Resources */,
+				DC3550C29FCBD11A90A76FDB542EF31E /* en.lproj in Resources */,
+				D33D3828100F5B0D7430EE70F3AE5B93 /* es.lproj in Resources */,
+				1EFAD1F82D559DD77ED2846F18F41B8E /* fa-IR.lproj in Resources */,
+				C723373E46E94CDFA73F6B93CADAE0A8 /* fa.lproj in Resources */,
+				169D829DAC4F47C413563B68A0452CFB /* fi.lproj in Resources */,
+				B7142950D98AD68CDD7A65246F0816BD /* fr.lproj in Resources */,
+				58610ED925E763568D0F8452A00DB80C /* hu.lproj in Resources */,
+				7B7AC99FB6AB7DF426DE640D9ED899D2 /* id.lproj in Resources */,
+				5ECB3EECBA25B0A18F93ECD759FBF26E /* it.lproj in Resources */,
+				C319505FD4E1B4E5C92BFA1B4C5DC42B /* ja.lproj in Resources */,
+				05F2F6185291510DDAABD8F63A23C232 /* ko.lproj in Resources */,
+				ADA90ED5CDCEAA7123760E6E1D4F4AF6 /* ms.lproj in Resources */,
+				76514F175C899CD9E365A7D957938889 /* nl.lproj in Resources */,
+				2D349BB945163A41C7ABDEF4DCEBF8B4 /* pl.lproj in Resources */,
+				C8AFF49FE9FC1844F42633BE49FE6D7A /* pt-BR.lproj in Resources */,
+				A030756696D2667B302AFAD412EE6DA4 /* pt.lproj in Resources */,
+				36B1B591BF2862E81ADE2DD5BC630FB7 /* ro.lproj in Resources */,
+				91E75569E3773B795F0B6F6DD5732FE1 /* ru.lproj in Resources */,
+				76AD5E9A04E8E12939629A23AC837F04 /* tr.lproj in Resources */,
+				0C8661F0463C9739F42170060B8C5C3B /* vi.lproj in Resources */,
+				89B8212E999B2F02B2EDA95083DC62A5 /* zh-Hans.lproj in Resources */,
+				8C7168CD4EA6EA815FB919C93FB6CF62 /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C3FFC3C9B6A8369BE90E459AA2838E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047F01BF1F8C81E3B8B64AE57947B178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE615106986D6B2CD8E5ACC43B08498 /* BoundingBox.swift in Sources */,
+				45F2BBC7E12948AFB70C62D7FD94377A /* Bundle+pathToTrainedData.swift in Sources */,
+				2B512754974B944596378E4CAE48348E /* EngineMode.swift in Sources */,
+				A3222935AF8A15234FDFC4ABE1A71FEC /* LanguageModelDataSource.swift in Sources */,
+				58B492A278EF1C484C91EED9850B8E0D /* LanguageStringConverter.swift in Sources */,
+				97EFDE8D797B96B1CE5CB9444445E80E /* RecognitionLanguage.swift in Sources */,
+				35B549A36F10451343C4FBE5254C1BE9 /* RecognizedBlock.swift in Sources */,
+				FA2A991ED2E349B550B46552E0222C48 /* ResultIteratorLevel.swift in Sources */,
+				3914AE7892E0DB25196362A6CC9923E5 /* String+Extensions.swift in Sources */,
+				E753AC3306AFC3D73F413872F2377073 /* SwiftyTesseract-dummy.m in Sources */,
+				16FDE71535603ACDAFC35170A1E14370 /* SwiftyTesseract.swift in Sources */,
+				989394A93F0491C9872C63109165B0A0 /* SwiftyTesseractError.swift in Sources */,
+				E00065A984D90D4663535711B1B8F42F /* TesseractVariableName.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1E371D70D79E8AA0B1FF08781CC8BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13372B63486D7FF431908499DA04D55 /* CropViewController-dummy.m in Sources */,
+				4AD942A0055F4AA9E88F5794116C0954 /* CropViewController.swift in Sources */,
+				964629F0BB83DBC47EFA7941A547F341 /* TOActivityCroppedImageProvider.m in Sources */,
+				8CA861FE1437795CE4240538BC579EDD /* TOCropOverlayView.m in Sources */,
+				CB830DBF1C71C4B0810B81010164F609 /* TOCroppedImageAttributes.m in Sources */,
+				B7339A69E6F8E46E7C7A67AAA135EE79 /* TOCropScrollView.m in Sources */,
+				DE0209B68D58D8600F0C7B9F5639F9E7 /* TOCropToolbar.m in Sources */,
+				AFF4A89763C184DF5B8AE09D4E9CCEB5 /* TOCropView.m in Sources */,
+				B164C5A18BB4056C18FEFCE8171FC22F /* TOCropViewController.m in Sources */,
+				D7B66357D263C0CE81DAE2BC9CADD0CF /* TOCropViewControllerTransitioning.m in Sources */,
+				55DABFACB6849AA3BE0A2CDFA476F7F1 /* UIImage+CropRotate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A9767912533C30AF1FA5952D9E06D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FDDAC03DC0C08AC3CD69A09B9567D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9FDD440BCFC28D7C47A09C9EE8A714 /* Pods-CharacterRecognitionApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B24B5700046E417FC88B29876216D402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CropViewController;
+			target = CC81A5995F9CEB2971CBA61ACA13FCA3 /* CropViewController */;
+			targetProxy = E3C9F500FEC4D4BDB27973A797A4269E /* PBXContainerItemProxy */;
+		};
+		E45CF4216D64DD43E4FF564039D05089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CropViewController-TOCropViewControllerBundle";
+			target = BB4EEF23ECB2BAF774CE8EFA5AF90C40 /* CropViewController-TOCropViewControllerBundle */;
+			targetProxy = 1755646AD62003C90F7BAE7ADC74C228 /* PBXContainerItemProxy */;
+		};
+		EE6972AF1517B7BBB61B61E23C3C7E15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyTesseract;
+			target = 5FDA8701204211983085669C4E12E6FE /* SwiftyTesseract */;
+			targetProxy = F378086BE8B24C9014EDCDB9C8892222 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2337EEC1731EB6835D045F1D3418DC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ED01FDC2DD9A56FBFCA6DC4C6DE32E5 /* Pods-CharacterRecognitionApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CharacterRecognitionApp/Pods-CharacterRecognitionApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CharacterRecognitionApp/Pods-CharacterRecognitionApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D95A5F52A60C445DE969A3AD3156E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2532003220291F0B5E99EADFC9A6ABE8 /* Pods-CharacterRecognitionApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CharacterRecognitionApp/Pods-CharacterRecognitionApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CharacterRecognitionApp/Pods-CharacterRecognitionApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3496EB412E1C0538594E5457273D1F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26069F5C17773F5AC4B36988898D8DB /* SwiftyTesseract.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTesseract/SwiftyTesseract-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyTesseract;
+				PRODUCT_NAME = SwiftyTesseract;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D9B773042EA9A90BA812E09558175C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E93768A5DBE568ABBFF8B25311819DF1 /* SwiftyTesseract.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTesseract/SwiftyTesseract-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyTesseract;
+				PRODUCT_NAME = SwiftyTesseract;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71AF81FE205EE9657798B065D617E270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D818D18ED469682E2AE6E0911A2A7AF4 /* CropViewController.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CropViewController";
+				IBSC_MODULE = CropViewController;
+				INFOPLIST_FILE = "Target Support Files/CropViewController/ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TOCropViewControllerBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CD6948873CFDBBAE50C3207DC22172D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D818D18ED469682E2AE6E0911A2A7AF4 /* CropViewController.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CropViewController/CropViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CropViewController/CropViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CropViewController/CropViewController.modulemap";
+				PRODUCT_MODULE_NAME = CropViewController;
+				PRODUCT_NAME = CropViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DAC8DBBE2CE8175D50E22924784EFA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D0868F21BB4FB8CF58D4A1B774D84FF /* CropViewController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CropViewController/CropViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CropViewController/CropViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CropViewController/CropViewController.modulemap";
+				PRODUCT_MODULE_NAME = CropViewController;
+				PRODUCT_NAME = CropViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC31DAA16FA97EC91BC229474FD591B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D0868F21BB4FB8CF58D4A1B774D84FF /* CropViewController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CropViewController";
+				IBSC_MODULE = CropViewController;
+				INFOPLIST_FILE = "Target Support Files/CropViewController/ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TOCropViewControllerBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		061D517EEA3E8AC34BFDF4993ECD714D /* Build configuration list for PBXNativeTarget "Pods-CharacterRecognitionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D95A5F52A60C445DE969A3AD3156E03 /* Debug */,
+				2337EEC1731EB6835D045F1D3418DC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13DEE028357EB363A6DFAFEC1C7D5575 /* Build configuration list for PBXNativeTarget "CropViewController-TOCropViewControllerBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AF81FE205EE9657798B065D617E270 /* Debug */,
+				DC31DAA16FA97EC91BC229474FD591B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B30045853BC66FA1F360F44FC5D085 /* Build configuration list for PBXNativeTarget "SwiftyTesseract" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9B773042EA9A90BA812E09558175C0 /* Debug */,
+				3496EB412E1C0538594E5457273D1F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D1DF486B12BF094FFE6FAD40D50142 /* Build configuration list for PBXNativeTarget "CropViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6948873CFDBBAE50C3207DC22172D3 /* Debug */,
+				DAC8DBBE2CE8175D50E22924784EFA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
