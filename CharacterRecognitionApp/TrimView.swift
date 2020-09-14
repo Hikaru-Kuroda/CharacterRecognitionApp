@@ -23,9 +23,13 @@ extension TrimViewController {
         textView.backgroundColor = UIColor.init(red: 230/255, green: 230/255, blue: 230/255, alpha: 1)
         
         let buttonWidth = width * 1/2
-        let buttonHeight = CGFloat(30)
+        var buttonHeight = CGFloat(30)
         let buttonBgColor = UIColor.orange
         let center = width * 1/2
+        //Xs以上(iPad)
+        if (height > 414) {
+            buttonHeight = 40
+        }
         
         trimButton.frame = CGRect(x: 0, y: height * 0.72, width: buttonWidth, height: buttonHeight)
         trimButton.backgroundColor = buttonBgColor
